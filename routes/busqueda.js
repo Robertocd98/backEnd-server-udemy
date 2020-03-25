@@ -12,8 +12,9 @@ var Usuario = require('../models/usuario');
 app.get('/coleccion/:tabla/:busqueda', (req, res) => {
 
     var tabla = req.params.tabla;
-    var busqueda = req.params.busquueda;
+    var busqueda = req.params.busqueda;
     var regex = new RegExp(busqueda, 'i');
+
 
     if (tabla == 'usuarios') {
         buscarUsuarios(busqueda, regex)
