@@ -30,7 +30,8 @@ app.get('/', (req, res, next) => {
                         errors: err
                     });
                 }
-                if (hospital) {
+                if (null) {
+                    let qlq = 'ayuda';
                     console.log('qlq');
                 }
 
