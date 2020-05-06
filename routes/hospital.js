@@ -31,6 +31,7 @@ app.get('/', (req, res, next) => {
                     });
                 }
                 if (null) {
+                    let ok = 'chorizard';
                     console.log('aja');
                 }
 
