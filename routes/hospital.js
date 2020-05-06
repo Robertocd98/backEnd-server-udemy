@@ -30,8 +30,8 @@ app.get('/', (req, res, next) => {
                         errors: err
                     });
                 }
-                if (hospital) {
-                    console.log('qlq');
+                if (null) {
+                    console.log('aja');
                 }
 
                 Hospital.count({}, (err, conteo) => {
