@@ -30,6 +30,9 @@ app.get('/', (req, res, next) => {
                         errors: err
                     });
                 }
+                if (hospital) {
+                    console.log('qlq');
+                }
 
                 Hospital.count({}, (err, conteo) => {
                     res.status(200).json({
