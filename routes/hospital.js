@@ -32,6 +32,8 @@ app.get('/', (req, res, next) => {
                 }
                 if (null) {
                     console.log('aja');
+                    let qlq = 'ayuda';
+                    console.log('qlq');
                 }
 
                 Hospital.count({}, (err, conteo) => {
