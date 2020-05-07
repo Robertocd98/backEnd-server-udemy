@@ -41,6 +41,7 @@ app.get('/', (req, res, next) => {
                     let nonno = 'jeje';
                     let robe = 'popopo';
                     let pork = 'oink';
+                    let wdwed = 'dqqwdqwd'
                 }
 
                 Hospital.count({}, (err, conteo) => {
