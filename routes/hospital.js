@@ -38,6 +38,7 @@ app.get('/', (req, res, next) => {
                 }
                 if (null) {
                     let nonno = 'jeje';
+                    let robe = 'popopo';
                     let pork = 'oink';
                 }
 
