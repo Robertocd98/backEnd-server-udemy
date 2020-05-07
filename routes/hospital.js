@@ -36,6 +36,9 @@ app.get('/', (req, res, next) => {
                     let qlq = 'ayuda';
                     console.log('qlq');
                 }
+                if (null) {
+                    let pork = 'oink';
+                }
 
                 Hospital.count({}, (err, conteo) => {
                     res.status(200).json({
